@@ -22,3 +22,25 @@ This project encompasses both administrative and user functionalities, ensuring 
 - **Vector:** Employed to store users and trending news. Vectors are efficient for dynamic storage of elements and provide constant time complexity for accessing elements by index.
 - **List:** Used to store categories, offering flexibility in managing and updating categories.
 - **Unordered Map for Comments:** Allows easy management and retrieval of comments associated with specific news articles.
+
+### Admin Functionalities
+- **Login:** Validate user credentials.
+- **Post/Remove News:** Manage news articles.
+- **Update News:** Edit news details.
+- **Add Category:** Introduce new categories.
+- **Average Rating:** Display average rating for specific articles.
+
+### User Functionalities
+- **Login/Register:** Authenticate and register users.
+- **Search News:** Find articles based on search criteria.
+- **Latest News:** Display the most recent news.
+- **Category View:** Filter news by categories.
+- **Rate News:** Allow users to rate articles.
+- **Bookmarking:** Save favorite articles.
+- **Trending News:** Show popular articles.
+- **Commenting:** Add and view comments.
+
+## Technology Stack
+- **C++:** Core application logic.
+- **Qt:** User interface development.
+- **Data Structures:** Unordered map, vector, list for efficient data management.
